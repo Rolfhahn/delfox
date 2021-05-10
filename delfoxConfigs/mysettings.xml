@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Settings>
+    <General NumberofRetentionJobs="7">  <!--Retention Jobs Number could be 1-9-->
+        <ProjectName>CleanUpPRAIntegrationClientArchive</ProjectName>
+        <DelaySeconds>90</DelaySeconds>
+    </General>
+    <Job1>
+        <DataDirectory1>c:\temp\1</DataDirectory1> <!--A Flat Directory with the files you will purge-->
+        <RetentionDays1>90</RetentionDays1>        <!--Files older than x days will be purged-->
+    </Job1>
+    <Job2>
+        <DataDirectory2>c:\temp\2</DataDirectory2>
+        <RetentionDays2>90</RetentionDays2>
+    </Job2>
+    <Job3>
+        <DataDirectory3>c:\temp\3</DataDirectory3>
+        <RetentionDays3>90</RetentionDays3>
+    </Job3>
+    <Job4>
+        <DataDirectory4>c:\temp\4</DataDirectory4>
+        <RetentionDays4>90</RetentionDays4>
+    </Job4>
+    <Job5>
+        <DataDirectory5>c:\temp\5</DataDirectory5>
+        <RetentionDays5>90</RetentionDays5>
+    </Job5>
+    <Job6>
+        <DataDirectory6>c:\temp\6</DataDirectory6>
+        <RetentionDays6>90</RetentionDays6>
+    </Job6>
+    <Job7>
+        <DataDirectory7>c:\temp\7</DataDirectory7>
+        <RetentionDays7>90</RetentionDays7>
+    </Job7>
+    <Job8>
+        <DataDirectory8>c:\temp\8</DataDirectory8>
+        <RetentionDays8>90</RetentionDays8>
+    </Job8>
+    <Job9>
+        <DataDirectory9>c:\temp\9</DataDirectory9>
+        <RetentionDays9>90</RetentionDays9>
+    </Job9>
+</Settings>
