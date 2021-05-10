@@ -11,5 +11,7 @@ Part's of the control File look like this:
     </Job1>
     ...
 
+Delfox logs all purge jobs for folders and all deleted files in its subfolder "delfoxlogs". 
+
 Delfox can be started with 1 param:
    delfoxstart.ps1 -CFGFile control.xml
