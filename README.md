@@ -1,12 +1,9 @@
 # delfox
-DELFOX is a Powershell Script that deletes files older than x days in up to 9 predifined folders.
+DELFOX is a Powershell Script that deletes files older than x days in up to 9 predefined folders.
 
-It works with a controller XML File that has to be placed in the subfolder delfoxconfigs
-Delfox will be started with 1 param:
-delfoxstart.ps1 -CFGFile controlfile.xml
-
-In the controller File you can configure up to 9 folders where files are purged older than the defined days per folder. 
-The controller File looks like this:
+It works with a control.xml File that has to be placed in the subfolder "delfoxconfigs".
+Control-File can be configure with up to 9 folders where files are purged older than the defined days per folder. 
+Part's of the control File look like this:
     ...
     <Job1>
         <DataDirectory2>c:\temp\2</DataDirectory2>
@@ -14,3 +11,5 @@ The controller File looks like this:
     </Job1>
     ...
 
+Delfox can be started with 1 param:
+   delfoxstart.ps1 -CFGFile control.xml
